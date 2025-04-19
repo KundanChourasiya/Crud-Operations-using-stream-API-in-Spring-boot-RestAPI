@@ -81,7 +81,7 @@ public class ProductController {
         }
     }
 
-    // DELETE: Delete a Product by ID
+    // DELETE: Delete a Product By ID
     @DeleteMapping("/product/{pid}")
     public ResponseEntity<ApiResponse<?>> deleteProductById(@PathVariable("pid") Integer id) {
         try {
