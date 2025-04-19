@@ -15,7 +15,7 @@ public class ProductServiceImpl implements ProductService {
     private static int lastId = 100; // starting from the highest ID already used
 
     static {
-
+        // static block to store the data
     }
 
     @Override

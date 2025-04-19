@@ -92,7 +92,7 @@ public class ProductController {
             }
             productService.deleteProductById(id);
             ApiResponse<Object> response = new ApiResponse<>(true, "Product Delete Successfully!!!", null);
-            return ResponseEntity.status(HttpStatus.NO_CONTENT).body(response);
+            return ResponseEntity.status(HttpStatus.OK).body(response);
         } catch (Exception e) {
             e.printStackTrace();
             ApiResponse<Product> response = new ApiResponse<>(false, "An error occurred internal server error", null);

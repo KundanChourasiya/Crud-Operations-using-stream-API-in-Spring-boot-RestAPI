@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>7.Crud-Operations-using-Strem-API-in-Spring-boot-RestAPI</artifactId>
+	<artifactId>7.Crud-Operations-using-stream-API-in-Spring-boot-RestAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>7.Crud-Operations-using-Strem-API-in-Spring-boot-RestAPI</name>
+	<name>7.Crud-Operations-using-stream-API-in-Spring-boot-RestAPI</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
