@@ -34,7 +34,7 @@ user this data for checking purpose.
 > 2. we create api for crud operation.
 
 ## Important Dependency to be used
-``` 
+```xml
  <dependency>
      <groupId>org.springframework.boot</groupId>
      <artifactId>spring-boot-starter-web</artifactId>
@@ -54,7 +54,7 @@ user this data for checking purpose.
 ```
 
 ## Create Product class in Entity Package.
-```
+```java
 @Setter
 @Getter
 @AllArgsConstructor
@@ -74,7 +74,7 @@ public class Product {
 ## Create ProductService interface and ProductServiceImpl class in Service package.
 
 ### *ProductService*
-```
+```java
 public interface ProductService {
 
     // GET: Retrieve all Product
@@ -95,7 +95,7 @@ public interface ProductService {
 ```
 
 ### *ProductServiceImpl*
-```
+```java
 @Service
 public class ProductServiceImpl implements ProductService {
 
@@ -154,7 +154,7 @@ public class ProductServiceImpl implements ProductService {
 
 ##  Create ApiResponse inside the Payload Package.
 ### *ApiResponseDto* 
-```
+```java
 @Setter
 @Getter
 @NoArgsConstructor
@@ -172,7 +172,7 @@ public class ApiResponse<T> {
 
 ### *Create ProductController class inside the Controller Package.* 
 
-```
+```java
 @RestController
 @RequestMapping("/api/v1")
 public class ProductController {
